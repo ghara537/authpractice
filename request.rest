@@ -1,0 +1,24 @@
+GET http://localhost:3001/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhcnJldHQiLCJpYXQiOjE3MDk1MDcyMDMsImV4cCI6MTcwOTUwNzIxOH0.Wy9HvskS0BnYL-VnNCq6BVbQccfIEvKfsfo_MFAevkM
+
+
+
+###
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+    "username": "garrett",
+    "password": "hara"
+}
+
+###
+
+ 
+POST http://localhost:3001/createUser
+Content-Type: application/json
+
+{
+    "username": "garrett",
+    "password": "hara"
+}

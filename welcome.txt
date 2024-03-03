@@ -1,0 +1,16 @@
+steps
+
+
+Frontend
+
+create the timer
+create the button for the counter
+login page
+once logged in you can see the timer and the counter
+
+carousel of the api images with vote counters
+
+Set up DB for auth
+set up basic auth password sign in
+use JWT to create tokens
+set up separate DB table for the counter
